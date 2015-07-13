@@ -1,0 +1,247 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(CC) Amereida</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(-32.892083, -71.505622),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+
+  <body>
+<!-- HEADER -->
+
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">(CC) Amereida</a></h1>
+          </li>
+          <li class="toggle-topbar"><a href="#"><span>Idioma</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="#">Español</a></li>
+            <li class="hide-for-small-only"><a href="">/</a></li>
+            <li><a href="#">English</a></li>
+        </section>
+      </nav>
+    
+<!-- INICIO CONTENIDO -->
+
+  <div id="home">
+    <div class="large-12 columns">
+      <h1>(CC) Amereida</h1>
+      <nav class="navegacion hide-for-small-only">
+        <li><a href="#ciudad-abierta">Sobre ciudad abierta</a></li>|
+        <li><a href="#visitanos">Visitanos</a></li>|
+        <li><a href="#">Sobre la Corporación</a></li>|
+        <li><a href="#">Acontecer</a></li>|
+        <li><a href="#">Fundamento</a></li>
+      </nav>
+
+       <a class="button menu-mov hide-for-large hide-for-medium" data-dropdown="menu-mov" aria-controls="menu-mov" aria-expanded="false">Menú</a>
+        <ul id="menu-mov" class="f-dropdown" data-dropdown-content tabindex="-1" aria-hidden="true" aria-autoclose="true" tabindex="-1">
+          <li><a href="#ciudad-abierta">Sobre ciudad abierta</a></li>
+          <li><a href="#visitanos">Visitanos</a></li>
+          <li><a href="#">Sobre la Corporación</a></li>
+          <li><a href="#">Acontecer</a></li>
+          <li><a href="#">Fundamento</a></li>
+        </ul>
+
+    </div>
+
+    </div>
+  </div>
+          
+      <div id="ciudad-abierta" class="small-12 columns">     
+
+
+          <h2>Sobre Ciudad Abierta</h2>
+
+          <div class="large-6 large-offset-3 columns panel">
+            <p>Ciudad Abierta es un territorio cuyo espacio es construido por sus propios habitantes a través de los oficios; siempre bajo la luz de <strong>“Amereida”</strong>, poema épico que revela una visión poética de América.</p>
+
+            <p>El territorio se ubica en en un sector de Ritoque llamado Punta Piedra, entre las comunas de Concón y Quintero en Valparaíso, Chile, a 4 kilómetros al norte de la desembocadura del río Aconcagua. Su extensión aproximada es de 240 hectáreas. Aparte de contar con un valor arquitectónico único, Ciudad Abierta alberga una amplia biodiversidad en su ecosistema.</p>
+
+            <a class="button right" href="">VER MÁS</a>
+          </div>
+      </div>
+
+
+
+<div class="row">
+  <div id="visitanos" class="large-12 columns">
+
+          <h2>Visitanos</h2>
+
+          <p>Ciudad Abierta es visitada de forma regular por personas e instituciones interesadas en conocer más acerca de la realidad de su quehacer y acontecer.</p>
+
+          <h3>Horarios</h3>
+
+          <ul>
+            <li><strong>Visitas auto-guiadas:</strong> Lunes a Viernes</li>
+            <li><strong>Visitas con anfotrión:</strong> Miércoles</li>
+          </ul>
+
+    <div class="panel">
+
+          <form>
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Nombre y Apellido
+                  <input type="text" placeholder="Su nombre compelto" />
+                </label>
+
+                <label>Email
+                  <input type="email" placeholder="ejemplo@mail.com" />
+                </label>
+              </div>
+
+              <div class="large-6 columns">
+                <label>Tipo de visita
+                  <select>
+                    <option value="institucional">Institucional</option>
+                    <option value="privada">Privada</option>
+                  </select>
+                </label>
+
+                <label>Tiempo estimado de visita
+                  <select>
+                    <option value="una-hora-o-menos">Una hora o menos</option>
+                    <option value="entre-1-y-3-horas">Entre una y tres horas</option>
+                    <option value="mas-de-3">Más de tres horas</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+              <label>¿Ha visitando anteriormente Ciudad Abierta?</label>
+                <input type="radio" name="visita" value="si" id="si"/><label for="si">Si</label>
+                <input type="radio" name="visita" value="no" id="no"/><label for="no">No</label>
+              
+              <label>¿Cuál es su interés principal?
+                <select>
+                  <option value="arquitectura-y-obras">Arquitectura y Obras</option>
+                  <option value="vida-silvestre">Vida silvestre, flora y fauna</option>
+                </select>
+              </label>
+
+              <label>Idioma
+                <select>
+                  <option value="español">Español</option>
+                  <option value="inglés">Inglés</option>
+                  <option value="inglés">Otro</option>
+                </select>
+              </label>
+
+              <label>Mensaje
+                <textarea placeholder="Escriba aquí más detalles sobre la visita" />
+                </textarea>
+              </label>
+
+              <a type="submit" class="button right" href="#">Enviar</a>
+          <div class="row">
+              <div class="small-12 columns">
+                <p><em> * La visita debe ser confirmada mínimo con una semana de anticipación.</em></p>
+              </div>
+          </div>
+            </form>
+    </div>
+  </div>
+</div>
+    
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>Acontecer</h2>
+
+        <div class="small-12 columns">
+          <a href="#"><div class="news panel">
+            <h3>Título de una noticia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor... <em>[ver más]</em></p>
+          </div></a>
+        </div>
+
+        <div class="small-12 columns">
+          <a href="#"><div class="news panel">
+            <h3>Título de otra noticia</h3>
+            <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim... <em>[ver más]</em></p>
+          </div></a>
+        </div>
+
+        <div class="small-12 columns">
+          <a href="#"><div class="news panel">
+            <h3>Título de otra noticia más</h3>
+            <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo... <em>[ver más]</em></p></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>Mapa</h2>
+        <div id="map-canvas"></div>
+
+      </div>
+    </div>
+
+  </div>
+
+    <footer>
+      <nav>
+        <div class="row">
+          <div class="smal-12 large-4 columns">
+            <ul>
+            <li><a href="http://www.ead.pucv.cl/extension/archivo/">Archivo Histórico José Vial Armstrong</a></li>
+            <li><a href="http://www.ead.pucv.cl/amereida/biblioteca-con%C2%A7tel/">Biblioteca con§tel</a></li>
+            <li><a href="http://www.ead.pucv.cl/">e[ad] Escuela de Arquitectura y Diseño</a></li>
+            <li><a href="http://travesias.ead.pucv.cl/">Travesías de Amereida</a></li>
+            </ul>
+          </div>
+
+          <div class="smal-12 large-4 columns">
+            <ul>
+            <li>Tel-Fax: +56 32 666 510</li>
+            <li><span class="ico ico-map"></span>Km. 4 camino Concón-Quintero</li>
+            <li>Matta 12, Recreo, Viña del Mar</li>
+            </ul>
+          </div>
+        
+          <div class="smal-12 large-4 columns">
+            <ul>
+              <li>©2015 (CC) Amereida</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

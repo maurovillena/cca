@@ -1,0 +1,194 @@
+/* ESTILOS CUSTOM (CC) AMEREIDA */
+
+
+.seccion{
+
+}
+
+.button{
+	background-color: #A1002E;
+}
+
+.button:hover{
+	background-color: #750429;
+}
+
+.name a{
+	text-align: left;
+}
+
+.navegacion{
+	list-style: none;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.navegacion li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.navegacion li a{
+	color: #999;
+}
+
+.navegacion li a:hover{
+	color: #fff;
+}
+
+.menu-mov{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+#menu-mov{
+	background-color: #333;
+	border: 0;
+}
+
+#menu-mov:focus{
+	border:0;
+}
+
+#menu-mov a{
+	color: #fff;
+}
+
+#menu-mov li{
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 30px;
+}
+
+#menu-mov li:hover{
+	background-color: #000;
+}
+
+.top-bar-section{
+	display: block;
+}
+
+#home{
+	background-image: url(../img/blk-02.png);
+	background-position: center;
+	background-size: 100%;
+	color: #fff;
+	height: 400px;
+}
+
+@media (max-width: 809px){
+	#home{
+		background-size: 230%;
+		background-position: left;
+	}
+}
+#home h1{
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 3em;
+	margin-top: 100px;
+}
+
+p{
+	font-family: "Merriweather";
+	line-height: 1.8;
+}
+
+a:focus{
+	color: #A1002E;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Merriweather Sans";
+}
+
+
+h1{
+	text-align: center;
+}
+
+h2{
+	margin-top: 30px;
+}
+
+@media (min-width: 641px){
+	h1,h2,h3{
+		text-align: center;
+	}
+}
+
+.news:hover{
+	background-color: #e2e2e2;
+}
+
+.news:hover>h3{
+	color: #750429;
+}
+
+.news h3{
+	text-align: left;
+	color: #A1002E;
+}
+
+.news p{
+	padding-left: 10px;
+}
+
+.title-area h1{
+	padding-top: 0!important;
+}
+
+#ciudad-abierta{
+	color: #fff;
+	width:100%;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 200px;
+    background-color: #CCC;
+    margin-bottom: 20px;
+  }
+
+@media (min-width: 810px){
+	#map-canvas{
+		height: 350px;
+	}
+}
+
+.active a{
+	font-style: italic;
+	background: none !important;
+}
+
+.active a:hover{
+	background: #333;
+}
+
+footer{
+	background-color: #222;
+	color: #999;
+}
+
+footer a{
+	color: #999;
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+footer nav{
+	padding:20px 0;
+}
+
+footer li{
+	list-style: none;
+	padding-bottom: 5px;
+	font-weight: 200;
+}
