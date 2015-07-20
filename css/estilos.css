@@ -5,7 +5,7 @@
 }
 
 .fixed{
-	background: #333;
+	background: #E84231;
 	-webkit-box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
@@ -30,9 +30,15 @@
 	background-color: #E84231;
 }
 
+.button.small{
+	padding:0.875rem 0.875rem 0.9375rem;
+}
+
 .button:hover{
 	background-color: #CE3B2C;
 }
+
+
 
 .name a{
 	text-align: left;
@@ -50,7 +56,7 @@
 }
 
 .navegacion li a{
-	color: #999;
+	color: #fff;
 }
 
 .navegacion li a:hover{
@@ -89,6 +95,19 @@
 	background-color: #000;
 }
 
+.top-bar{
+	background: #E84231;
+	-webkit-box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
+}
+
+.top-bar a{
+	background: #E84231!important;
+}
+
+
+
 .top-bar-section{
 	display: block;
 }
@@ -113,6 +132,12 @@
 	vertical-align: middle;
 	font-size: 3em;
 	margin-top: 100px;
+}
+
+@media (max-width: 372px){
+	#home .button{
+		margin: 20px auto 0px;
+}
 }
 
 #corp{
@@ -140,6 +165,7 @@
 p{
 	font-family: "Merriweather";
 	line-height: 1.8;
+	font-weight: 100;
 }
 
 a:focus{
@@ -164,7 +190,9 @@ h2{
 }
 
 h3{
-	font-size: 1.5rem!important;
+	font-size: 1.1rem!important;
+	text-transform: uppercase;
+	font-weight: 900;
 	margin-top: 1.5rem;
 	margin-bottom: 1.4rem!important;
 }
@@ -180,12 +208,12 @@ h3{
 }
 
 .news:hover>h3{
-	color: #750429;
+	color: #CE3B2C;
 }
 
 .news h3{
 	text-align: left;
-	color: #A1002E;
+	color: #E84231;
 }
 
 .news p{
@@ -197,7 +225,7 @@ h3{
 }
 
 #ciudad-abierta{
-	color: #fff;
+	color: #333;
 	width:100%;
 }
 
@@ -216,7 +244,7 @@ h3{
 
 .active a{
 	font-style: italic;
-	background: none !important;
+	background: #CE3B2C !important;
 }
 
 .active a:hover{
