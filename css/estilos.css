@@ -6,6 +6,9 @@
 
 .fixed{
 	background: #333;
+	-webkit-box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -3px 21px 0px rgba(0,0,0,0.75);
 }
 
 .sub-nav{
@@ -14,16 +17,20 @@
 	text-align: center;
 }
 
+#visitanos, #ciudad-abierta{
+	padding-top: 40px;
+}
+
 .seccion{
 
 }
 
 .button{
-	background-color: #A1002E;
+	background-color: #E84231;
 }
 
 .button:hover{
-	background-color: #750429;
+	background-color: #A1002E;
 }
 
 .name a{
@@ -93,6 +100,27 @@
 	height: 400px;
 }
 
+#corp{
+	background-image: url(../img/blk-02.png);
+	background-position: top;
+	background-size: 100%;
+	color: #fff;
+}
+
+#corp h1{
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 3em;
+	margin-top: 50px;
+}
+
+@media (min-width: 641px){
+	#corp{
+		height: 200px;
+	}
+}
+
 @media (max-width: 809px){
 	#home{
 		background-size: 230%;
@@ -127,6 +155,7 @@ h1{
 
 h2{
 	margin-top: 30px;
+	margin-bottom: 1rem;
 }
 
 @media (min-width: 641px){
