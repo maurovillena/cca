@@ -15,6 +15,7 @@
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 #visitanos, #ciudad-abierta{
@@ -100,11 +101,26 @@
 	height: 400px;
 }
 
+@media (max-width: 809px){
+	#home{
+		background-size: 230%;
+		background-position: left;
+	}
+}
+#home h1{
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 3em;
+	margin-top: 100px;
+}
+
 #corp{
-	background-image: url(../img/blk-02.png);
+	background-image: url(../img/corp.jpg);
 	background-position: top;
 	background-size: 100%;
 	color: #fff;
+	margin-bottom: 100px;
 }
 
 #corp h1{
@@ -121,20 +137,6 @@
 	}
 }
 
-@media (max-width: 809px){
-	#home{
-		background-size: 230%;
-		background-position: left;
-	}
-}
-#home h1{
-	text-align: center;
-	color: #fff;
-	vertical-align: middle;
-	font-size: 3em;
-	margin-top: 100px;
-}
-
 p{
 	font-family: "Merriweather";
 	line-height: 1.8;
@@ -148,6 +150,9 @@ h1,h2,h3,h4,h5,h6{
 	font-family: "Merriweather Sans";
 }
 
+.panel h3{
+	text-align: left;
+}
 
 h1{
 	text-align: center;
@@ -156,6 +161,12 @@ h1{
 h2{
 	margin-top: 30px;
 	margin-bottom: 1rem;
+}
+
+h3{
+	font-size: 1.5rem!important;
+	margin-top: 1.5rem;
+	margin-bottom: 1.4rem!important;
 }
 
 @media (min-width: 641px){
@@ -210,6 +221,24 @@ h2{
 
 .active a:hover{
 	background: #333;
+}
+
+.thumb{
+	border:1px solid #D8D8D8;
+	padding: 10px;
+	background: #fff;
+	margin-bottom:20px;
+}
+
+.thumb p{
+	font-size: 0.8rem;
+	font-style: italic;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.thumb img{
+	width:100%;
 }
 
 footer{
