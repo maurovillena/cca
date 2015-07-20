@@ -1,5 +1,18 @@
 /* ESTILOS CUSTOM (CC) AMEREIDA */
 
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  background: transparent;
+}
+
+.fixed{
+	background: #333;
+}
+
+.sub-nav{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
 
 .seccion{
 
@@ -19,7 +32,7 @@
 
 .navegacion{
 	list-style: none;
-	margin-top: 60px;
+
 	text-align: center;
 }
 
@@ -73,8 +86,8 @@
 }
 
 #home{
-	background-image: url(../img/blk-02.png);
-	background-position: center;
+	background-image: url(../img/ciudadabierta.jpg);
+	background-position: top;
 	background-size: 100%;
 	color: #fff;
 	height: 400px;
