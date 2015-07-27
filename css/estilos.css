@@ -189,13 +189,13 @@ a:focus{
 h1,h2,h3,h4,h5,h6{
 	font-family: "Merriweather Sans";
 }
-
+center
 .panel h3{
 	text-align: left;
 }
 
 h1{
-	text-align: center;
+	text-align: ;
 }
 
 h2{
@@ -304,4 +304,12 @@ footer li{
 	list-style: none;
 	padding-bottom: 5px;
 	font-weight: 200;
+}
+
+.top-bar.expanded .toggle-topbar a{
+	color:#fff;
+}
+
+.top-bar ul{
+	background: #E84231!important;
 }
